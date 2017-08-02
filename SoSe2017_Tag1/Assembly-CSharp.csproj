@@ -45,7 +45,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Cube2House\House.cs" />
      <Compile Include="Assets\Mesh_Debugger\Mesh_Debugger.cs" />
+     <Compile Include="Assets\MxN_Grid\MxN_Grid.cs" />
+     <Compile Include="Assets\Parameterisierung\Bilienar_Surface.cs" />
+     <Compile Include="Assets\Parameterisierung\Line_Coords.cs" />
      <Compile Include="Assets\Tag1\Triangle\Triangle.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
