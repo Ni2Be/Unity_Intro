@@ -1,0 +1,32 @@
+
+DISCLAIMER
+Die in der Veranstaltung verwendeten Texturen sind als "auf die Schnelle"
+besorgte Beispiel-Texturen zu verstehen.
+Die Erlaubnis zum Einsatz zu kommerziellen Zwecken ist nicht sichergestellt
+und wird sicherheitshalber untersagt.
+Besorgt euch besser eigene Texturen im Netz. Es gibt viele Seiten auf denen
+freie (auch kommerziell nutzbare) Texturen kostenlos zu finden sind.
+
+
+Grass-Textur:
+Dateiname: grass.jpg
+Quelle: http://pre15.deviantart.net/0382/th/pre/i/2011/332/7/5/seamless_green_grass_texture_01_by_goodtextures-d4hk3zy.jpg
+
+Stein-Textur:
+Dateiname: stone.jpg
+Quelle: http://www.mb3d.co.uk/mb3d/Stone_and_Rock_Seamless_and_Tileable_High_Res_Textures_files/stone_04_1.jpg
+
+Wasser-Texture:
+Dateiname: water.jpg
+Quelle: http://images.google.de/imgres?imgurl=http%3A%2F%2F1.bp.blogspot.com%2F-MwXleupp6FM%2FUHU5pF4jYjI%2FAAAAAAAADcA%2FOXjgoPBpy8Y%2Fs1600%2FTileable%252Bclassic%252Bwater%252Btexture.jpg&imgrefurl=http%3A%2F%2Fseamless-pixels.blogspot.com%2F2012%2F10%2Ftileable-water-texture.html&h=1024&w=1024&tbnid=DsKrufwdQm0aCM%3A&docid=UB9V_F41bDg27M&ei=WqSVVpzQLcOMaqj-rrAJ&tbm=isch&iact=rc&uact=3&dur=1482&page=1&start=0&ndsp=29&ved=0ahUKEwic5ebYzaXKAhVDhhoKHSi_C5YQrQMIIDAA
+	http://1.bp.blogspot.com/-MwXleupp6FM/UHU5pF4jYjI/AAAAAAAADcA/OXjgoPBpy8Y/s1600/Tileable+classic+water+texture.jpg
+
+Heightmap-Textur (SRTM-Daten):
+Dateiname: heightmap.jpg
+Quelle: http://earthobservatory.nasa.gov/Features/BlueMarble/BlueMarble_monthlies.php
+        http://earthobservatory.nasa.gov/Features/BlueMarble/Images/srtm_ramp2.world.5400x2700.jpg
+
+World-Texture (SRTM):
+Dateiname: maintexture.jpg
+Quelle: http://visibleearth.nasa.gov/view.php?id=73909
+	http://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73909/world.topo.bathy.200412.3x5400x2700.jpg

@@ -50,7 +50,10 @@
      <Compile Include="Assets\MxN_Grid\Editor\MxN_Grid_Editor.cs" />
      <Compile Include="Assets\Parameterisierung\Editor\Bilinear_Surface_Editor.cs" />
      <Compile Include="Assets\Parameterisierung\Editor\Line_Coords_Editor.cs" />
+     <Compile Include="Assets\Planet\Editor\Planet_Editor.cs" />
      <Compile Include="Assets\Tag1\Triangle\Editor\Triangle_Editor.cs" />
+     <Compile Include="Assets\TinyPlanet2\Editor\TinyPlanetEditor.cs" />
+     <None Include="Assets\Planet\Resources\TexturQuellen.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>

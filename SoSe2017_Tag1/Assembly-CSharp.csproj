@@ -50,7 +50,10 @@
      <Compile Include="Assets\MxN_Grid\MxN_Grid.cs" />
      <Compile Include="Assets\Parameterisierung\Bilienar_Surface.cs" />
      <Compile Include="Assets\Parameterisierung\Line_Coords.cs" />
+     <Compile Include="Assets\Planet\Planet.cs" />
      <Compile Include="Assets\Tag1\Triangle\Triangle.cs" />
+     <Compile Include="Assets\TinyPlanet2\TinyPlanet.cs" />
+     <None Include="Assets\Planet\Resources\TexturQuellen.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

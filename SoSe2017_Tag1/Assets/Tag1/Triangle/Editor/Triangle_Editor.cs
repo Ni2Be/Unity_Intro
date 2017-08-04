@@ -12,7 +12,7 @@ public class Triangle_Editor : Editor
         triangle_       = target as Triangle;
     }
 
-    public void OnSceneGUI()
+    public override void OnInspectorGUI()
     {
         EditorGUI.BeginChangeCheck();
         triangle_.p0_   = Handles.FreeMoveHandle(triangle_.p0_, Quaternion.identity, 0.1f, Vector3.zero, Handles.SphereCap);
@@ -24,8 +24,5 @@ public class Triangle_Editor : Editor
             triangle_.CreateMesh();
     }
 
-    public override void OnInspectorGUI()
-    {
-        base.OnInspectorGUI();
-    }
+
 }

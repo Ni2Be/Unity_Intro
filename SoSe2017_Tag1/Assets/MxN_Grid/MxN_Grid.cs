@@ -2,7 +2,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-
+using System;
 
 [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer))]
 public class MxN_Grid : MonoBehaviour
@@ -13,11 +13,15 @@ public class MxN_Grid : MonoBehaviour
     public int          width_points_count_  = 20;
     public int          height_points_count_ = 20;
 
+    public float        time_counter_   = 0.0f;
+    public float        amplitude_      = 1.0f;
+
     #region Mesh-Stuff
     Mesh            mesh_;
     MeshFilter      mesh_filter_;
     MeshRenderer    mesh_renderer_;
     #endregion
+
 
 
     #region unity methods
@@ -27,16 +31,20 @@ public class MxN_Grid : MonoBehaviour
     {
 
     }
-
-    // Update is called once per frame
     void Update()
     {
-
+        time_counter_ += Time.deltaTime;
+        create_mesh();
     }
     #endregion
 
 
-    public void CreateMesh()
+    public void Reset()
+    {
+        create_mesh();
+    }
+
+    public void create_mesh()
     {
         mesh_filter_        = GetComponent<MeshFilter>();
         mesh_renderer_      = GetComponent<MeshRenderer>();
@@ -61,8 +69,10 @@ public class MxN_Grid : MonoBehaviour
         {
             for (int h = 0; h < height_points_count_; h ++)
             {
-                vertices.Add(new Vector3(w * widht_step     , 0.0f                , h * height_step));
-                uvs     .Add(new Vector2(w * widht_parameter, h * height_parameter));
+                //grid
+                vertices.Add(new Vector3(w * widht_step, ((float)Math.Sin(time_counter_ + w) + (float)Math.Sin(time_counter_ + h / 3)) * amplitude_, h * height_step));
+                //texture uvs
+                uvs.Add(new Vector2(w * widht_parameter, h * height_parameter));
 
             }
         }
@@ -123,6 +133,7 @@ public class MxN_Grid : MonoBehaviour
     {
         return (1 - t) * p0 + t * p1;
     }
+
 
 
 }
