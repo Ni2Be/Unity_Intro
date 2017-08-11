@@ -25,7 +25,7 @@ Platform assembly: C:\Users\jorda\Desktop\Planet Generator\Planet Gen_Data\Manag
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.808309 ms
+UnloadTime: 0.835678 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: b0c -> priority: 1 
-  Thread -> id: a70 -> priority: 1 
+  Thread -> id: cc -> priority: 1 
+  Thread -> id: 24c4 -> priority: 1 
