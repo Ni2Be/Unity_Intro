@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{947EF3BC-13EF-753F-CFF4-E071FB0ABC36}</ProjectGuid>
+    <ProjectGuid>{5A0769DA-25DA-A68D-BA58-6ED404CB536B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -51,13 +51,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-     <Compile Include="Assets\Mesh_Debugger\Editor\Mesh_Debugger_Editor.cs" />
-     <Compile Include="Assets\Perlin Noise\Editor\Perlin_Noise_Editor.cs" />
-     <Compile Include="Assets\Planet Gen\Editor\Planet_Gen_Editor.cs" />
-     <None Include="Assets\Materials\StarNestSkybox\StarNestSkyboxReadme.txt" />
-     <None Include="Assets\Materials\StarNestSkybox\hsv.cginc" />
-     <None Include="Assets\Materials\StarNestSkybox\StarNest.shader" />
+     <Compile Include="Assets\Planet Generator\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets\Planet Generator\Mesh_Debugger\Editor\Mesh_Debugger_Editor.cs" />
+     <Compile Include="Assets\Planet Generator\Perlin Noise\Editor\Perlin_Noise_Editor.cs" />
+     <Compile Include="Assets\Planet Generator\Planet Gen\Editor\Planet_Gen_Editor.cs" />
+     <None Include="Assets\Planet Generator\Materials\StarNestSkybox\StarNestSkyboxReadme.txt" />
+     <None Include="Assets\Planet Generator\Materials\StarNestSkybox\hsv.cginc" />
+     <None Include="Assets\Planet Generator\Materials\StarNestSkybox\StarNest.shader" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -118,7 +118,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{964368DE-9B68-3990-EE93-FA8011EA13CA}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

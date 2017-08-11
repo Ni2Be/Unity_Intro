@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{964368DE-9B68-3990-EE93-FA8011EA13CA}</ProjectGuid>
+    <ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,16 +51,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Materials\StarNestSkybox\Scripts\CameraScroll.cs" />
-     <Compile Include="Assets\Materials\StarNestSkybox\Scripts\SkyboxSwitcher.cs" />
-     <Compile Include="Assets\Menu.cs" />
-     <Compile Include="Assets\Mesh_Debugger\Mesh_Debugger.cs" />
-     <Compile Include="Assets\Perlin Noise\Perlin_Noise.cs" />
-     <Compile Include="Assets\Planet Gen\Planet_Generator.cs" />
-     <Compile Include="Assets\Planet Gen\Terrain_Generator.cs" />
-     <None Include="Assets\Materials\StarNestSkybox\StarNestSkyboxReadme.txt" />
-     <None Include="Assets\Materials\StarNestSkybox\hsv.cginc" />
-     <None Include="Assets\Materials\StarNestSkybox\StarNest.shader" />
+     <Compile Include="Assets\Planet Generator\Materials\StarNestSkybox\Scripts\CameraScroll.cs" />
+     <Compile Include="Assets\Planet Generator\Materials\StarNestSkybox\Scripts\SkyboxSwitcher.cs" />
+     <Compile Include="Assets\Planet Generator\Menu.cs" />
+     <Compile Include="Assets\Planet Generator\Mesh_Debugger\Mesh_Debugger.cs" />
+     <Compile Include="Assets\Planet Generator\Perlin Noise\Perlin_Noise.cs" />
+     <Compile Include="Assets\Planet Generator\Planet Gen\Planet_Generator.cs" />
+     <Compile Include="Assets\Planet Generator\Planet Gen\Terrain_Generator.cs" />
+     <None Include="Assets\Planet Generator\Materials\StarNestSkybox\StarNestSkyboxReadme.txt" />
+     <None Include="Assets\Planet Generator\Materials\StarNestSkybox\hsv.cginc" />
+     <None Include="Assets\Planet Generator\Materials\StarNestSkybox\StarNest.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
