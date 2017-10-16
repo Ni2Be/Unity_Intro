@@ -3,6 +3,11 @@ A procedural planet / star generator. TH Köln, course PGVW
 
 After one week introduction to Unity and procedural generation we had 3 days to implement our own procedural generator.
 
+[Windows release](https://github.com/Nice2Bee/Unity_Intro/releases/tag/v1.0)
+
+It takes a moment to generate something, and  the screen will freeze the time it takes (unity functions can't be used parallel and I did not know when I stated work). The assert is more that kind that you use in the editor anyway, so I left it so.
+
+
 \[Editor control]
 ![Editor](https://github.com/Nice2Bee/Unity_Intro/blob/master/screenshot_editor.PNG)
 
