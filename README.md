@@ -5,6 +5,8 @@ After one week introduction to Unity and procedural generation we had 3 days to 
 
 [Windows release](https://github.com/Nice2Bee/Unity_Intro/releases/tag/v1.0)
 
+[Unitypackage](https://1drv.ms/u/s!AtwaZYMhkRKBgrVukFEmZnbW5iU0Sg)
+
 It takes a moment to generate something, and  the screen will freeze the time it takes (unity functions can't be used parallel and I did not know when I stated work). The assert is more that kind that you use in the editor anyway, so I left it so.
 
 
