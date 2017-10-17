@@ -97,7 +97,7 @@ The program is made of three parts: [Planet_Generator.cs](https://github.com/Nic
 ![Editor](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_editor.PNG)
 
 
-### Random generated:
+### Randomly generated:
 
 
 \[random cold planet]
