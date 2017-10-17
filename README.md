@@ -28,7 +28,7 @@ The program is made of three parts: [Planet_Generator.cs](https://github.com/Nic
 
 \[Unity icosahedron]
 
-![Unity icosahedron](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/Icosahedron.PNG)
+![Unity view icosahedron](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/Icosahedron.PNG)
 
 
 - Then the triangles will be split and the uv's will be generated. Again: only for the planet and not for the ocean.
