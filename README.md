@@ -11,36 +11,36 @@ It takes a moment to generate something, and  the screen will freeze the time it
 
 
 \[Editor control]
-![Editor](https://github.com/Nice2Bee/Unity_Intro/blob/master/screenshot_editor.PNG)
+![Editor](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_editor.PNG)
 
 
 \[random cold planet]
-![Cold](https://github.com/Nice2Bee/Unity_Intro/blob/master/screenshot_cold.PNG)
+![Cold](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_cold.PNG)
 
 
 \[random warm planet 1]
-![warm1](https://github.com/Nice2Bee/Unity_Intro/blob/master/screenshot_warm.PNG)
+![warm1](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_warm.PNG)
 
 
 \[random warm planet 2]
-![warm2](https://github.com/Nice2Bee/Unity_Intro/blob/master/screenshot_warm%202.PNG)
+![warm2](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_warm%202.PNG)
 
 
 \[random desert planet]
-![desert](https://github.com/Nice2Bee/Unity_Intro/blob/master/screenshot_desert.PNG)
+![desert](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_desert.PNG)
 
 
 \[random hot planet 1]
-![desert](https://github.com/Nice2Bee/Unity_Intro/blob/master/screenshot_hot.PNG)
+![desert](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_hot.PNG)
 
 
 \[random hot planet 2]
-![desert](https://github.com/Nice2Bee/Unity_Intro/blob/master/screenshot_hot%202.PNG)
+![desert](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_hot%202.PNG)
 
 
 \[random hot planet 3]
-![desert](https://github.com/Nice2Bee/Unity_Intro/blob/master/screenshot_hot%203.PNG)
+![desert](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_hot%203.PNG)
 
 
 \[random star]
-![desert](https://github.com/Nice2Bee/Unity_Intro/blob/master/screenshot_star.PNG)
+![desert](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_star.PNG)
