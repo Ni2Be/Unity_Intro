@@ -89,7 +89,7 @@ The program is made of three parts: [Planet_Generator.cs](https://github.com/Nic
 
 ![Star](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/star%20waves.gif)
 
-
+- That's it!
 
 ### Editor:
 
