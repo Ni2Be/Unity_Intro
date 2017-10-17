@@ -11,6 +11,8 @@ It takes a moment to generate something, and the screen will freeze the time it 
 
 ### How it works
 
+The program is made of three parts: [Planet_Generator.cs](https://github.com/Nice2Bee/Unity_Intro/blob/master/Planet%20Gen/Assets/Planet%20Generator/Planet%20Gen/Planet_Generator.cs) that generates the meshes and holds information about the planet, [Perlin_Noise.cs](https://github.com/Nice2Bee/Unity_Intro/blob/master/Planet%20Gen/Assets/Planet%20Generator/Perlin%20Noise/Perlin_Noise.cs) that generates a noise that is equal on the left and the right (not really a perlin noise) and the [Terrain_Generator.cs](https://github.com/Nice2Bee/Unity_Intro/blob/master/Planet%20Gen/Assets/Planet%20Generator/Planet%20Gen/Terrain_Generator.cs) that generates a texture for a given heightmap. 
+
 - First some vertices and indices form an icosahedron using the coordinates given by the formula:
 
 ![Coordinates](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/Icosahedron%20coordinates.PNG)
@@ -21,7 +23,7 @@ It takes a moment to generate something, and the screen will freeze the time it 
 ![Wikipedia icosahedron](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Icosahedron-golden-rectangles.svg/500px-Icosahedron-golden-rectangles.svg.png)
 
 
-- There are two icosahedrons, the inner one is the planet the outer one is the ocean moved to debug distance. In the program however there will only the planet icosahedron be generated and the ocean submesh will be generated later and only the parts needed.
+- There are two icosahedrons on the image, the inner one is the planet the outer one is the ocean moved to debug distance. In the program however there will only the planet icosahedron be generated and the ocean submesh will be generated later and only the parts needed.
 
 \[Unity icosahedron]
 
