@@ -24,7 +24,7 @@ The program is made of three parts: [Planet_Generator.cs](https://github.com/Nic
 ![Wikipedia icosahedron](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Icosahedron-golden-rectangles.svg/500px-Icosahedron-golden-rectangles.svg.png)
 
 
-- There are two icosahedrons on the image, the inner one is the planet the outer one is the ocean moved to debug distance. In the program however there will only the planet icosahedron be generated and the ocean submesh will be generated later and only the parts needed.
+- There are two icosahedrons on the image, the inner one is the planet, the outer one is the ocean moved to debug distance. In the program however there will be only the planet icosahedron generated and the ocean submesh will be generated later and only the parts needed.
 
 \[Unity view icosahedron]
 
@@ -52,7 +52,7 @@ The program is made of three parts: [Planet_Generator.cs](https://github.com/Nic
 ![Apply Heightmap](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/apply%20heightmap.gif)
 
 
-- The heightmap is now given to a function that generates a texture. The look of the texture depends on the heights and the temperature variable that is set for the planet.   
+- The heightmap is now passed to a function that generates a texture. The look of the texture depends on the heights and the temperature variable that is set for the planet.   
 
 \[Cold]
 
@@ -83,7 +83,7 @@ The program is made of three parts: [Planet_Generator.cs](https://github.com/Nic
 ![Animation](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/waves.gif)
 
 
-- The Stars are only generated textures out of the lava texture applied to an ocean
+- The stars are only generated textures out of the lava texture applied to an ocean
 
 \[Star]
 
