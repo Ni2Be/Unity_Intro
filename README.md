@@ -1,5 +1,5 @@
 # Unity_Intro
-#### A procedural planet / star generator. TH Köln, course PGVW (procedural generation of virtual worlds)
+#### A procedural planet / star generator. TH Köln, course PGVW (procedural generation of virtual worlds), teacher: Dennis Buderus
 ![Planet](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/planet.gif)
 
 After a one-week introduction to Unity and procedural generation we had 3 days to implement our own procedural generator.
