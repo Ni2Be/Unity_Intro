@@ -1,5 +1,6 @@
 # Unity_Intro
-A procedural planet / star generator. TH Köln, course PGVW (procedural generation of virtual worlds)
+#### A procedural planet / star generator. TH Köln, course PGVW (procedural generation of virtual worlds)
+![Planet](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/planet.gif)
 
 After a one-week introduction to Unity and procedural generation we had 3 days to implement our own procedural generator.
 
@@ -7,7 +8,7 @@ After a one-week introduction to Unity and procedural generation we had 3 days t
 
 [Unitypackage](https://1drv.ms/u/s!AtwaZYMhkRKBgrVukFEmZnbW5iU0Sg)
 
-It takes a moment to generate something, and the screen will freeze the time it takes (unity functions can't be used parallel and I did not know when I stated work). Anyway, the assert is more that kind that you use in the editor, so I left it so.
+It takes a moment to generate something, and the screen will freeze the time it takes (unity functions can't be used parallel ..one of those things you better know before you start work). Anyway, the assert is more that kind that you use in the editor, so that's not that big of a problem.
 
 ### How it works
 
@@ -75,7 +76,7 @@ The program is made of three parts: [Planet_Generator.cs](https://github.com/Nic
 
 
 
-- The animation allows to change the waves
+- The animation menu allows to adjust the waves
 
 \[Animation]
 
