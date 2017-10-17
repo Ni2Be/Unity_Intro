@@ -1,7 +1,7 @@
 # Unity_Intro
 A procedural planet / star generator. TH Köln, course PGVW (procedural generation of virtual worlds)
 
-After one week introduction to Unity and procedural generation we had 3 days to implement our own procedural generator.
+After a one-week introduction to Unity and procedural generation we had 3 days to implement our own procedural generator.
 
 [Windows release](https://github.com/Nice2Bee/Unity_Intro/releases/tag/v1.0)
 
