@@ -7,7 +7,9 @@ After one week introduction to Unity and procedural generation we had 3 days to 
 
 [Unitypackage](https://1drv.ms/u/s!AtwaZYMhkRKBgrVukFEmZnbW5iU0Sg)
 
-It takes a moment to generate something, and  the screen will freeze the time it takes (unity functions can't be used parallel and I did not know when I stated work). Anyway the assert is more that kind that you use in the editor, so I left it so.
+It takes a moment to generate something, and  the screen will freeze the time it takes (unity functions can't be used parallel and I did not know when I stated work). Anyway, the assert is more that kind that you use in the editor, so I left it so.
+
+[Some informations on how it works](https://github.com/Nice2Bee/Unity_Intro/blob/technique/README.md)
 
 
 \[Editor control]
