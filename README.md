@@ -26,7 +26,7 @@ The program is made of three parts: [Planet_Generator.cs](https://github.com/Nic
 
 - There are two icosahedrons on the image, the inner one is the planet the outer one is the ocean moved to debug distance. In the program however there will only the planet icosahedron be generated and the ocean submesh will be generated later and only the parts needed.
 
-\[Unity icosahedron]
+\[Unity view icosahedron]
 
 ![Unity view icosahedron](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/Icosahedron.PNG)
 
