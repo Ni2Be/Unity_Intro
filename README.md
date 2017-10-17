@@ -38,7 +38,7 @@ The program is made of three parts: [Planet_Generator.cs](https://github.com/Nic
 ![splitting](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/dividing.gif)
 
 
-- After that, a noise generates a heightmap.
+- After that, a heightmap is generated out of some noises.
 
 \[Heightmap]
 
