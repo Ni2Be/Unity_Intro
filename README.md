@@ -83,7 +83,7 @@ The program is made of three parts: [Planet_Generator.cs](https://github.com/Nic
 ![Animation](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/waves.gif)
 
 
-- The stars are only generated textures out of the lava texture applied to an ocean
+- The stars are generated textures out of the lava texture applied to an ocean
 
 \[Star]
 
