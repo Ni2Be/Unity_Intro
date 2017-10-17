@@ -24,7 +24,7 @@ The program is made of three parts: [Planet_Generator.cs](https://github.com/Nic
 ![Wikipedia icosahedron](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Icosahedron-golden-rectangles.svg/500px-Icosahedron-golden-rectangles.svg.png)
 
 
-- There are two icosahedrons on the image, the inner one is the planet, the outer one is the ocean moved to debug distance. In the program however there will be only the planet icosahedron generated and the ocean submesh will be generated later and only the parts needed.
+- There are two icosahedrons on the image, the inner one is the planet, the outer one is the ocean scaled up to debug-distance (debug-distance is used to seperate the ocean from the planet, will be clearer in a moment, image: [Apply Heightmap (Debug distance down to 0)]). In the program however there will be only the planet icosahedron generated and the ocean submesh will be generated later and only the parts needed.
 
 \[Unity view icosahedron]
 
@@ -45,7 +45,7 @@ The program is made of three parts: [Planet_Generator.cs](https://github.com/Nic
 ![Heightmap](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/heightmap.PNG)
 
 
-- When the heightmap is applied you see why it would be waste to generate the ocean with the same function as the planet. The ocean submesh holds only the needed vertices and is animated. The rest of the vertices is placed on the height the heightmap represents.
+- When the heightmap is applied you see why it would be a waste to generate the ocean with the same function as the planet. The ocean submesh holds only the needed vertices and is animated. The rest of the vertices is placed on the height the heightmap represents.
 
 \[Apply Heightmap (Debug distance down to 0)]
 
