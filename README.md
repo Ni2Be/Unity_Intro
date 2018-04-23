@@ -8,7 +8,7 @@ After a one-week introduction to Unity and procedural generation we had 3 days t
 
 [Unitypackage](https://1drv.ms/u/s!AtwaZYMhkRKBgrVukFEmZnbW5iU0Sg)
 
-The screen freezes while generating a planet (unity functions are not thread safe ..one of those things you better know before you start work). Anyway, the assert is more that kind you use in the editor, so that's not that big of a problem.
+The screen freezes while generating a planet (unity functions are not thread safe). Anyway, the assert is more that kind you use in the editor, so that's not that big of a problem.
 
 [Some informations on how it works](https://github.com/Nice2Bee/Unity_Intro/blob/technique/README.md)
 
