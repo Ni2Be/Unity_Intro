@@ -1,6 +1,6 @@
 # Unity_Intro
 #### A procedural planet / star generator. TH Köln, course PGVW (procedural generation of virtual worlds), teacher: Dennis Buderus
-![Planet](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/planet.gif)
+![Planet](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/technique/planet.gif)
 
 After a one-week introduction to Unity and procedural generation we had 3 days to implement our own procedural generator.
 
@@ -12,11 +12,11 @@ The screen freezes while generating a planet (unity functions are not thread saf
 
 ### How it works
 
-The program is made of three parts: [Planet_Generator.cs](https://github.com/Nice2Bee/Unity_Intro/blob/master/Planet%20Gen/Assets/Planet%20Generator/Planet%20Gen/Planet_Generator.cs) that generates the meshes and holds information about the planet, [Perlin_Noise.cs](https://github.com/Nice2Bee/Unity_Intro/blob/master/Planet%20Gen/Assets/Planet%20Generator/Perlin%20Noise/Perlin_Noise.cs) that generates a noise that is equal on the left and the right (not really a perlin noise) and the [Terrain_Generator.cs](https://github.com/Nice2Bee/Unity_Intro/blob/master/Planet%20Gen/Assets/Planet%20Generator/Planet%20Gen/Terrain_Generator.cs) that generates a texture for a given heightmap. 
+The program is made of three parts: [Planet_Generator.cs](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/master/Planet%20Gen/Assets/Planet%20Generator/Planet%20Gen/Planet_Generator.cs) that generates the meshes and holds information about the planet, [Perlin_Noise.cs](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/master/Planet%20Gen/Assets/Planet%20Generator/Perlin%20Noise/Perlin_Noise.cs) that generates a noise that is equal on the left and the right (not really a perlin noise) and the [Terrain_Generator.cs](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/master/Planet%20Gen/Assets/Planet%20Generator/Planet%20Gen/Terrain_Generator.cs) that generates a texture for a given heightmap. 
 
 - First some vertices and indices form an icosahedron using the coordinates given by the formula:
 
-![Coordinates](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/Icosahedron%20coordinates.PNG)
+![Coordinates](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/technique/Icosahedron%20coordinates.PNG)
 (phi = golden ratio)
 
 \[Wikipedia icosahedron]
@@ -28,51 +28,51 @@ The program is made of three parts: [Planet_Generator.cs](https://github.com/Nic
 
 \[Unity view icosahedron]
 
-![Unity view icosahedron](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/Icosahedron.PNG)
+![Unity view icosahedron](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/technique/Icosahedron.PNG)
 
 
 - Then the triangles will be split and the uv's will be generated. Again: only for the planet and not for the ocean.
 
 \[Splitting]
 
-![splitting](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/dividing.gif)
+![splitting](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/technique/dividing.gif)
 
 
 - After that, a heightmap is generated out of some noises.
 
 \[Heightmap]
 
-![Heightmap](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/heightmap.PNG)
+![Heightmap](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/technique/heightmap.PNG)
 
 
 - When the heightmap is applied you see why it would be a waste to generate the ocean with the same function as the planet. The ocean submesh holds only the needed vertices and is animated. The rest of the vertices is placed on the height the heightmap represents.
 
 \[Apply Heightmap (Debug distance down to 0)]
 
-![Apply Heightmap](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/apply%20heightmap.gif)
+![Apply Heightmap](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/technique/apply%20heightmap.gif)
 
 
 - The heightmap is now passed to a function that generates a texture. The look of the texture depends on the heights and the temperature variable that is set for the planet.   
 
 \[Cold]
 
-![ColdText](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/planet%20texturing/texture%20cold.PNG)
-![Cold](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/planet%20texturing/cold.PNG)
+![ColdText](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/technique/planet%20texturing/texture%20cold.PNG)
+![Cold](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/technique/planet%20texturing/cold.PNG)
 
 \[Mediterranean]
 
-![MediterraneanText](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/planet%20texturing/texture%20med.PNG)
-![Mediterranean](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/planet%20texturing/med.PNG)
+![MediterraneanText](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/technique/planet%20texturing/texture%20med.PNG)
+![Mediterranean](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/technique/planet%20texturing/med.PNG)
 
 \[Warm]
 
-![WarmText](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/planet%20texturing/texture%20warm.PNG)
-![Warm](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/planet%20texturing/warm.PNG)
+![WarmText](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/technique/planet%20texturing/texture%20warm.PNG)
+![Warm](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/technique/planet%20texturing/warm.PNG)
 
 \[Hot]
 
-![HotText](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/planet%20texturing/texture%20hot.PNG)
-![Hot](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/planet%20texturing/hot.PNG)
+![HotText](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/technique/planet%20texturing/texture%20hot.PNG)
+![Hot](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/technique/planet%20texturing/hot.PNG)
 
 
 
@@ -80,53 +80,53 @@ The program is made of three parts: [Planet_Generator.cs](https://github.com/Nic
 
 \[Animation]
 
-![Animation](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/waves.gif)
+![Animation](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/technique/waves.gif)
 
 
 - The stars are generated textures out of the lava texture applied to an ocean
 
 \[Star]
 
-![Star](https://github.com/Nice2Bee/Unity_Intro/blob/technique/technique/star%20waves.gif)
+![Star](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/technique/star%20waves.gif)
 
 - That's it!
 
 ### Editor:
 
 \[Editor control]
-![Editor](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_editor.PNG)
+![Editor](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/screenshot_editor.PNG)
 
 
 ### Randomly generated:
 
 
 \[random cold planet]
-![Cold](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_cold.PNG)
+![Cold](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/screenshot_cold.PNG)
 
 
 \[random warm planet 1]
-![warm1](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_warm.PNG)
+![warm1](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/screenshot_warm.PNG)
 
 
 \[random warm planet 2]
-![warm2](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_warm%202.PNG)
+![warm2](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/screenshot_warm%202.PNG)
 
 
 \[random desert planet]
-![desert](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_desert.PNG)
+![desert](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/screenshot_desert.PNG)
 
 
 \[random hot planet 1]
-![desert](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_hot.PNG)
+![desert](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/screenshot_hot.PNG)
 
 
 \[random hot planet 2]
-![desert](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_hot%202.PNG)
+![desert](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/screenshot_hot%202.PNG)
 
 
 \[random hot planet 3]
-![desert](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_hot%203.PNG)
+![desert](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/screenshot_hot%203.PNG)
 
 
 \[random star]
-![desert](https://github.com/Nice2Bee/Unity_Intro/blob/technique/screenshot_star.PNG)
+![desert](https://raw.githubusercontent.com/Nice2Bee/Unity_Intro/technique/screenshot_star.PNG)
